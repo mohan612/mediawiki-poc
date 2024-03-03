@@ -3,6 +3,11 @@ variable "name_prefix" {
   description = "Resource name prefix"
 }
 
+variable "aks_cluster_name" {
+  type = string
+  description = "AKS Cluster Name"
+}
+
 variable "location" {
   type = string
   description = "Location"
