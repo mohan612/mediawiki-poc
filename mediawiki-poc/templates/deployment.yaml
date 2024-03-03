@@ -58,6 +58,6 @@ spec:
           claimName: {{ .Chart.Name }}-data
       - name: {{ .Chart.Name }}-phplocalsettings
        hostpath:
-         path: C:\Users\HP\Downloads\Mediawiki-master\Mediawiki-master\LocalSettings.php
+         path: LocalSettings.php
          type: file
 
